@@ -196,7 +196,7 @@ public class OnlineCalculatorTest {
 		// Adding the implementation for reading excel file, for taking input for test
 		// cases.
 		// Adding in beforeClass() method, as we only want to read this file once.
-		File src = new File("D:\\\\Excel\\\\OnlineCalculator.xlsx");
+		File src = new File("./input/OnlineCalculator.xlsx");
 		FileInputStream fis = new FileInputStream(src);
 		XSSFWorkbook x1 = new XSSFWorkbook(fis);
 
